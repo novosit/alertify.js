@@ -1,4 +1,4 @@
-define(["validate"], function (validate) {
+define(["./validate"], function (validate) {
     "use strict";
 
     var element = {},

@@ -1,4 +1,4 @@
-define(["element"], function (element) {
+define(["./element"], function (element) {
     "use strict";
 
     var transition;

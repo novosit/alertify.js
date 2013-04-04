@@ -1,4 +1,4 @@
-define(["alertify", "validate", "element", "transition"], function (Alertify, validate, element, transition) {
+define(["./alertify", "./validate", "./element", "./transition"], function (Alertify, validate, element, transition) {
     "use strict";
 
     var Log,

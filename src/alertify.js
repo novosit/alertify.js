@@ -1,4 +1,4 @@
-define(["proto"], function (AlertifyProto) {
+define(["./proto"], function (AlertifyProto) {
     "use strict";
 
     var Alertify = function () {};
