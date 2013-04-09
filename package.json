@@ -3,6 +3,7 @@
   "description": "browser dialogs never looked so good",
   "version": "0.4.0rc1",
   "homepage": "http://fabien-d.github.com/alertify.js/",
+  "dojoBuild": "profile.build.js",
   "author": {
     "name": "Fabien Doiron",
     "email": "fabien.doiron@gmail.com"
