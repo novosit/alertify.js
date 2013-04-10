@@ -49,7 +49,7 @@ define([], function () {
         },
         isString: function (param, optional) {
             return _checkValidation("string", param, optional);
-        },
+        }
     };
 
     return validate;
