@@ -5,9 +5,9 @@ var profile = {
 	resourceTags : {
 		amd : function(filename, mid) {
 			return (/^src\//).test(filename);
-		}/*,
-		copyOnly: function(filename) {
-			return /\.css$/.test(filename);
-		}*/
+		},
+		ignore: function(filename, mid) {
+			return (/test\/(qunit|specs|vendor|index|runner)/).test(filename);
+		}
 	}
 };
