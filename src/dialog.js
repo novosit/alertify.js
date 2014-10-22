@@ -35,10 +35,10 @@ define(["./alertify", "./element", "./validate", "./transition", "./keys"], func
 
         tpl = {
             buttons : {
-                holder : "<nav class=\"alertify-buttons\">{{buttons}}</nav>",
-                submit : "<button role=\"button\" type=\"submit\" class=\"alertify-button alertify-button-ok\" id=\"alertify-ok\">{{ok}}</button>",
-                ok     : "<button role=\"button\" type=\"button\" class=\"alertify-button alertify-button-ok\" id=\"alertify-ok\">{{ok}}</button>",
-                cancel : "<button role=\"button\" type=\"button\" class=\"alertify-button alertify-button-cancel\" id=\"alertify-cancel\">{{cancel}}</button>"
+                holder : "<nav class=\"alertify-buttons fade-bg\">{{buttons}}</nav>",
+                submit : "<button role=\"button\" type=\"submit\" class=\"btn btn-sm btn-primary m-l-xs\" id=\"alertify-ok\">{{ok}}</button>",
+                ok     : "<button role=\"button\" type=\"button\" class=\"btn btn-sm btn-primary\" id=\"alertify-ok\">{{ok}}</button>",
+                cancel : "<button role=\"button\" type=\"button\" class=\"btn btn-sm btn-cancel\" id=\"alertify-cancel\">{{cancel}}</button>"
             },
             input   : "<div class=\"alertify-text-wrapper\"><input type=\"text\" class=\"alertify-text\" id=\"alertify-text\"></div>",
             message : "<p class=\"alertify-message\">{{message}}</p>",
